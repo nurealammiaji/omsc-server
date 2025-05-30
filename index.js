@@ -18,7 +18,6 @@ app.get("/", (req, res) => {
     res.send("OMSC Server is running ....");
 })
 
-
 app.listen(port, () => {
     console.log(`OMSC Server is running on Port: ${port}`);
 })
